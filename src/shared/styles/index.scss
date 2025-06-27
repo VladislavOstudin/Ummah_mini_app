@@ -1,0 +1,23 @@
+@use './themes';
+@use './variables' as *;
+
+@import '@fontsource/inter/index.css';
+
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+}

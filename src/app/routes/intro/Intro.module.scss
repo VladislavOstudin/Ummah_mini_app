@@ -1,0 +1,45 @@
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    max-width: 360px;
+    min-width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--thoth-color);
+    // background: linear-gradient(to bottom, transparent 85%, var(--thoth-color) 99%);
+}
+
+.video {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // max-height: 630px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.content {
+    height: 95vh;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.title {
+    font-size: 2em;
+    color: var(--text-color);
+}
+
+.text {
+    display: none;
+    font-size: 2em;
+    margin-bottom: 24px;
+    color: var(--text-color);
+}

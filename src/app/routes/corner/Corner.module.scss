@@ -1,0 +1,42 @@
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    max-width: 360px;
+    min-width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--thoth-color);
+}
+
+.content {
+    height: 95vh;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.door {
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+.text {
+    border: 1px solid var(--third-color);
+    border-radius: 1em;
+    font-size: 1.2em;
+    margin-bottom: 24px;
+    color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons_choice {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}

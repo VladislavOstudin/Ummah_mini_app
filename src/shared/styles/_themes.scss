@@ -1,0 +1,27 @@
+:root {
+  /* Base colors */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #007bff;
+
+  /* Accent palette */
+  --first-color: #E4E6D9;
+  --second-color: #C0CFB2;
+  --third-color: #6D8777;
+  --thoth-color: #273626;
+
+  /* Component colors */
+  --card-bg: var(--first-color);
+  --button-bg: var(--third-color);
+  --button-text: #ffffff;
+
+  /* Border & misc */
+  --border-color: #dcdcdc;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] {
+  /* Base colors */
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+}
