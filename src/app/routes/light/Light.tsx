@@ -12,7 +12,7 @@ export default function Light() {
     <div className={styles.wrapper}>
       <FullScreenCard>
         <div className={styles.content}>
-            <img src={Door_light} alt="Door" className={styles.door} />
+            <img src={Door_light} alt="Door" className={styles.picture} />
             <div className={styles.text}>
                 <p>Ты осмелился подойти! Яркий свет бьет в глаза все сильнее, но тебя уже не остановить. Ты слышишь, как из-за двери до тебя доносится тихий, приятный голос, который добавляет тебе уверенности. Ты распахиваешь дверь и...</p>
             </div>

@@ -12,7 +12,7 @@ export default function Corner() {
     <div className={styles.wrapper}>
       <FullScreenCard>
         <div className={styles.content}>
-            <img src={Door_close} alt="Door" className={styles.door} />
+            <img src={Door_close} alt="Door" className={styles.picture} />
             <div className={styles.text}>
                 <p>Ты забился в дальний угол. Ты всегда бежал от опасности, потому что тебя так научили. И в этот раз ты поступил так</p>
             </div>

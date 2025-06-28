@@ -12,7 +12,7 @@ export default function CatQuestion() {
     <div className={styles.wrapper}>
       <FullScreenCard>
         <div className={styles.content}>
-            <img src={Door_close} alt="Door" className={styles.door} />
+            <img src={Door_close} alt="Door" className={styles.picture} />
             <div className={styles.text}>
                 <p>Перед тобой появляется милый котёнок, от которого исходит тот самый яркий свет. Котёнок кажется дружелюбным. Ты задаёшь вопрос...</p>
             </div>

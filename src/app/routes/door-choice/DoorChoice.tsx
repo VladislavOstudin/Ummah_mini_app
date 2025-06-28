@@ -12,7 +12,7 @@ export default function DoorChoice() {
     <div className={styles.wrapper}>
       <FullScreenCard>
         <div className={styles.content}>
-            <img src={Door_choice} alt="Door" className={styles.door} />
+            <img src={Door_choice} alt="Door" className={styles.picture} />
             <div className={styles.text}>
                 <p>Впереди ты видишь дверь, сквозь которую в комнату пробивается яркий свет. Ты хочешь узнать, что за свет, но тебе страшно.</p>
                 <p>Что же делать?</p>  
