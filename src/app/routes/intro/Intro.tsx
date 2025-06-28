@@ -22,7 +22,7 @@ export default function Intro() {
         <div className={styles.content}>
           <h1 className={styles.title}>UmmahApp</h1>
           <p className={styles.text}>Ас-саляму алейкум! Готов начать свой путь?</p>
-          <ChoiceButton label="Начать" onClick={() => navigate('/door-choice')} />
+          <ChoiceButton label="Начать" theme='light' onClick={() => navigate('/door-choice')} />
         </div>
       </FullScreenCard>
     </div>

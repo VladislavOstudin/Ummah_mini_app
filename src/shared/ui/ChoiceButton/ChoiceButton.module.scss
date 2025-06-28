@@ -1,12 +1,21 @@
 .button {
-    background-color: transparent;
-    color: var(--second-color);
     padding: 0.75rem 1.25rem;
-    margin: 0.5rem 0;
-    border: 1px solid var(--second-color);
+    margin: 0.5rem 0;;
     border-radius: 999px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     width: 100%;
+}
+
+.button__light {
+    background-color: transparent;
+    color: var(--thoth-color);
+    border: 1px solid var(--thoth-color);
+}
+
+.button__dark {
+    background-color: transparent;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
 }
